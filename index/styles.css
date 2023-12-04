@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font: 15px;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card {
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+.card {
+  border-radius: 15px;
+}
+.card-img {
+  border-radius: 10px;
+}
+.card-img {
+  background-image: url(images/image-qr-code.png);
+  background-size: cover;
+  background-position: center;
+  height: 18rem;
+}
+.card-text {
+  padding: 0 0.5rem;
+}
+.card-text h1,
+.card-text p {
+  text-align: center;
+  margin-top: 1rem;
+}
+.card-text h1 {
+  color: hsl(218, 44%, 22%);
+}
+.card-text P {
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 1rem;
+}
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: hsl(218, 44%, 22%);
+}
+@media (min-width: 375px) {
+  .card-text h1 {
+    font-weight: 700;
+    font-size: 1.3em;
+  }
+  .card-text p {
+    font-size: 15px;
+  }
+}
